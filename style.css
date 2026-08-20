@@ -1,0 +1,15 @@
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:Arial,sans-serif;background:#0b1120;color:#e5e7eb;line-height:1.6}
+header{position:sticky;top:0;z-index:100;background:#111827;border-bottom:1px solid #1f2937}
+nav{max-width:1100px;margin:auto;padding:18px 25px;display:flex;justify-content:space-between;align-items:center}
+nav h2{color:#38bdf8}.nav-links{display:flex;gap:20px}.nav-links a{color:#e5e7eb;text-decoration:none}.nav-links a:hover{color:#38bdf8}
+section{max-width:1000px;margin:auto;padding:80px 25px}.hero{min-height:90vh;display:flex;align-items:center}
+.tag{color:#38bdf8;font-weight:bold;letter-spacing:2px}.hero h1{font-size:52px;margin:15px 0}.hero h1 span{color:#38bdf8}
+.hero h2{color:#cbd5e1;margin-bottom:20px}.hero p{max-width:700px;color:#94a3b8}
+.button{display:inline-block;margin-top:25px;padding:12px 24px;background:#38bdf8;color:#0b1120;text-decoration:none;border-radius:8px;font-weight:bold}
+section h2{color:#38bdf8;font-size:30px;margin-bottom:25px}.skills{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}
+.skills div,.card{background:#111827;border:1px solid #1f2937;padding:20px;border-radius:12px}
+.skills div:hover,.card:hover{border-color:#38bdf8;transform:translateY(-3px);transition:.2s}.card{margin-bottom:15px}
+.card h3{color:#f8fafc;margin-bottom:8px}a{color:#38bdf8}
+footer{text-align:center;padding:30px;background:#111827;color:#94a3b8}
+@media(max-width:700px){nav{flex-direction:column;gap:15px}.nav-links{flex-wrap:wrap;justify-content:center}.hero h1{font-size:38px}.skills{grid-template-columns:1fr}}
